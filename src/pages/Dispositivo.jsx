@@ -173,7 +173,7 @@ export const Dispositivo = () => {
             <InformacionPlanta planta={planta} id={id} />
             {dispositivo?._id === '65590aab8ef290c452993fb5' && (
 
-              <div className="bg-black rounded-lg mt-5 w-3/5 relative overflow-hidden group">
+              <div className="hidden bg-black rounded-lg mt-5 w-3/5 relative overflow-hidden group">
                 <video
                   ref={video1Ref}
                   src={`/b99900a9-f6cd-4066-a3c8-617b2ef539ac/v16d4923e9-69ff-4ab9-9330-1d72b16486ae.webm`}

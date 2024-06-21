@@ -63,7 +63,7 @@ export const InformacionPlantaDesvinculada = ({id}) => {
                     <p className='text-sm font-semibold'>Suelo: <span className='font-normal'>No disponible</span></p>
 
                 </div>
-                <img className='w-16' src={`https://www.pngitem.com/pimgs/m/9-93242_no-entry-sign-transparent-png-download-block-icon.png`} alt="planta img" />
+                {/* <img className='w-16' src={`https://www.pngitem.com/pimgs/m/9-93242_no-entry-sign-transparent-png-download-block-icon.png`} alt="planta img" /> */}
             </div>
             <div className=''>
                         <Select

@@ -7,7 +7,7 @@ export const SimpleBarChart = ({data}) => {
     <>
         <div className='bg-white pr-5 pt-5 pb-5 rounded-lg shadow'>
         <h2 className='font-semibold text-center mb-5 py-3 rounded-lg '>Gráfica Humedad y Temperatura</h2>
-            <ResponsiveContainer width="100%" aspect={3}>
+            {/* <ResponsiveContainer width="100%" aspect={3}>
                 <AreaChart 
                     data={data} 
                     width={500} 
@@ -29,7 +29,7 @@ export const SimpleBarChart = ({data}) => {
                     <Area type={"monotone"} dataKey="temperatura" stackId={"1"} stroke='#10B981' fill="#CAF5E7"/>
                     <Area type={"monotone"} dataKey="humedadAmbiente" stackId={"1"} stroke='#F46D71' fill="#FBEEE6"/>
                 </AreaChart>
-            </ResponsiveContainer>
+            </ResponsiveContainer> */}
         </div>
 
 
